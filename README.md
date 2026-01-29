@@ -38,3 +38,21 @@ Autonomous-Nav-Agent/
 ├── main.py             # Entry point to launch the training
 ├── requirements.txt    # Dependencies
 └── models/             # Saved PyTorch weights (.pth files)
+```
+How to Run Locally:-
+
+1. clone the repo in terminal
+2. create virtual environment
+3. install dependencies
+``` python main.py ```
+4. launch the agent
+``` python main.py ```
+
+Performance:
+
+-> 0 - 50 Games: Exploration phase (High crashes).
+
+-> 50 - 100 Games: Pattern recognition begins.
+
+-> 100+ Games: The agent develops optimal pathing strategies, averaging scores of 40+.
+
