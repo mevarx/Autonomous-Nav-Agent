@@ -22,7 +22,7 @@ Built from scratch using **Python** and **PyTorch**, implementing a Deep Q-Netwo
 * **Data Processing:** NumPy
 * **Visualization:** Matplotlib / IPython
 
-How to Run Locally:-
+## How to Run Locally:-
 
 1. clone the repo in terminal
 2. create virtual environment
@@ -31,12 +31,13 @@ How to Run Locally:-
 4. launch the agent
 ``` python main.py ```
 
-Performance:
+## Performance:
 
 -> 0 - 50 Games: Exploration phase (High crashes).
 
 -> 50 - 100 Games: Pattern recognition begins.
 
 -> 100+ Games: The agent develops optimal pathing strategies, averaging scores of 40+.
+
 
 
