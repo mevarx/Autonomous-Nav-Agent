@@ -3,9 +3,7 @@ import random
 
 game = SnakeGameAI()
 
-# Run forever until you close the window
 while True:
-    # Pick a random action: [Straight, Right, Left]
     action = [0, 0, 0]
     action[random.randint(0, 2)] = 1
     
